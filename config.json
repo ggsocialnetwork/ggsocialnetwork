@@ -5,12 +5,12 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Jesaya Tunggal"
+    "text": "Catherine Bevan, Jesaya Tunggal"
   },
   "text": {
-    "more": "test 4",
-    "intro": "test 4",
-    "title": "Test 4"
+    "more": "This project is an open-source exploration of the events, tactics, actors, discriminations, platforms and other concepts involved across the online Gamergate hate movement from August 2014 to October 2016. The data is largely sourced and expanded upon from the open-source timeline hosted on Reddit found here: https://www.reddit.com/r/GamerGhazi/wiki/timeline/. Events were then processed, extended, and related to all other nodes by a small team at the University of Alberta supervised by Geoffrey Rockwell and led by Catherine Bevan.",
+    "intro": "",
+    "title": "The Gamergate Social Network"
   },
   "legend": {
     "edgeLabel": "Event Connections",
@@ -33,7 +33,7 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 6.7,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
@@ -43,7 +43,7 @@
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 12
     },
     "mouseProperties": {
       "maxRatio": 20,
