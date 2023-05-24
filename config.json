@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "This project is an open-source exploration of the events, tactics, actors, discriminations, platforms and other concepts involved across the online Gamergate hate movement from August 2014 to October 2016. The data is largely sourced and expanded upon from the open-source timeline hosted on Reddit found here: https://www.reddit.com/r/GamerGhazi/wiki/timeline/. Events were then processed, extended, and related to all other nodes by a small team at the University of Alberta supervised by Geoffrey Rockwell and led by Catherine Bevan.",
-    "intro": "",
+    "intro": "An interactive visualization of the relationships between actors, events, tactics, platforms and other concepts involved in the online Gamergate hate campaign. ",
     "title": "The Gamergate Social Network"
   },
   "legend": {
