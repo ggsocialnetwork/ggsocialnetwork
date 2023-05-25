@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "",
+    "file": "testLogo.png",
     "link": "",
     "text": "Catherine Bevan, Jesaya Tunggal"
   },
@@ -13,9 +13,9 @@
     "title": "The Gamergate Social Network"
   },
   "legend": {
-    "edgeLabel": "Event Connections",
-    "colorLabel": "Categories",
-    "nodeLabel": "Events and Categories"
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
   },
   "features": {
     "search": true,
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "category"
   },
   "sigma": {
     "drawingProperties": {
