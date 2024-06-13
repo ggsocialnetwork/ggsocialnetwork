@@ -2,20 +2,21 @@
   "type": "network",
   "version": "1.0",
   "data": "data.json",
-  "logo": {
-    "file": "testLogo.png",
-    "link": "",
-    "text": "Catherine Bevan, Jesaya Tunggal"
-  },
+
   "text": {
-    "more": "This project is an open-source exploration of the events, tactics, actors, discriminations, platforms and other concepts involved across the online Gamergate hate movement from August 2014 to October 2016. The data is largely sourced and expanded upon from the open-source timeline hosted on Reddit found here: https://www.reddit.com/r/GamerGhazi/wiki/timeline/. Events were then processed, extended, and related to all other nodes by a small team at the University of Alberta supervised by Geoffrey Rockwell and led by Catherine Bevan.",
-    "intro": "An interactive visualization of the relationships between actors, events, tactics, platforms and other concepts involved in the online Gamergate hate campaign. ",
-    "title": "The Gamergate Social Network"
+    "more": "This project is an open-source exploration of the events, tactics, actors, discriminations, platforms and other concepts involved across the online Gamergate hate movement from August 2014 to October 2016. The data is largely sourced and expanded upon from the open-source timeline hosted on Reddit found here: https://www.reddit.com/r/GamerGhazi/wiki/timeline/. Events were then processed, extended, and related to all other nodes by a small team at the University of Alberta supervised by Geoffrey Rockwell and led by Catherine Bevan with data visualization and analysis by Jess Tunggal. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONTENT WARNING: External links provided as reference may host highly triggering materials related to: transphobia, homophobia, body shaming, racism, ableism, misogyny, sexual abuse, child abuse content, domestic violence, suicide, antisemitism, and more. On occasion, events in the network that may appear benign can still contain unrelated triggering content due to the nature of social media screenshots, videos, digital documents, and archived webpages given as primary references. We recommend exercising extreme caution when exploring any of the provided links.",
+    "intro": "An interactive visualization of the relationships between actors, events, tactics, \nplatforms and other concepts involved in the online Gamergate hate campaign.",
+    "title": "The Gamergate Social Network "
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": ""
+    "edgeLabel": "Event Connections",
+    "colorLabel": "Categories",
+    "nodeLabel": "Events and Categories"
+  },
+  "logo": {
+    "file": "/images/testLogo.png",
+    "link": "",
+    "text": "Legend"
   },
   "features": {
     "search": true,
@@ -24,7 +25,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "category"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
@@ -33,7 +34,7 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 6.7,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
