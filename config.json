@@ -15,7 +15,7 @@
   },
   "logo": {
     "file": "/images/testLogo.png",
-    "link": "",
+    "link": "/images/testLogo.png",
     "text": "Legend"
   },
   "features": {
