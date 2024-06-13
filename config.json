@@ -14,8 +14,8 @@
     "nodeLabel": "Events and Categories"
   },
   "logo": {
-    "file": "/images/testLogo.png",
-    "link": "/images/testLogo.png",
+    "file": "./images/testLogo.png",
+    "link": "",
     "text": "Legend"
   },
   "features": {
